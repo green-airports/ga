@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"
+        integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Charan work</title>
+</head>
+<body>
+    <div class="container column">
+        
+        <p class="title">Green Performance Evaluation of Airport Operations </p>
+
+        <div class="field">
+            <label class="label">Name of the Report</label>
+            <div class="control">
+                <input id= "nor"class="input" type="text" placeholder="Enter the name">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Year of the Report</label>
+            <div class="control">
+                <input id= "yor"class="input" type="number" placeholder="Enter the year">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Type of the Report</label>
+            <div class="control">
+                <input id= "tor"class="input" type="text" placeholder="Enter the type">
+            </div>
+        </div>
+
+
+        <div class="field">
+            <label class="label">Aircraft Movements (1000's)</label>
+            <div class="control">
+                <input id="am" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Passenger Flights (1000's)</label>
+            <div class="control">
+                <input id="pf" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Cargo Flights (1000's)</label>
+            <div class="control">
+                <input id="cf" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Passenger Numbers (Millions)</label>
+            <div class="control">
+                <input id="pn" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Cargo Tons (Million Tons)</label>
+            <div class="control">
+                <input id="ct" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Energy Usage (MkWh)</label>
+            <div class="control">
+                <input id="eu" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Energy Usage per Passenger (kWh)</label>
+            <div class="control">
+                <input id="eupp" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Energy Savings (MkWh)</label>
+            <div class="control">
+                <input id="ess" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Water Usage (M m³) </label>
+            <div class="control">
+                <input id="wu" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+
+
+        <div class="field">
+            <label class="label">Water Savings (1000 m³) </label>
+            <div class="control">
+                <input id="ws" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Water Usage per Passenger (L)</label>
+            <div class="control">
+                <input id="wupp" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Wastewater Generation (M m³)</label>
+            <div class="control">
+                <input id="wg" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Wastewater Recycled (1000 m³) </label>
+            <div class="control">
+                <input id="wr" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Solid Waste Generation (1000 T)</label>
+            <div class="control">
+                <input id="swg" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Solid Waste per Passenger (kg)</label>
+            <div class="control">
+                <input id="swpp" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Waste Recycling Rate (%)</label>
+            <div class="control">
+                <input id="wrr" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Hazardous Waste Generation (T)</label>
+            <div class="control">
+                <input id="hwg" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Scope 1 Emissions (1000 tCO2e)</label>
+            <div class="control">
+                <input id="s1e" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Scope 2 Emissions (1000 tCO2e)</label>
+            <div class="control">
+                <input id="s2e" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Scope 1 and 2 Combined Emissions (1000 tCO2e)</label>
+            <div class="control">
+                <input id="s12" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Scope 3 Emissions (1000 tCO2e)</label>
+            <div class="control">
+                <input id="s3" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Total GHG Emissions (1000 tCO2e)</label>
+            <div class="control">
+                <input id="tge" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">GHG Emission Savings (1000 tCO2e)</label>
+            <div class="control">
+                <input id="ghg" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Carbon Emissions per Passenger (kg)</label>
+            <div class="control">
+                <input id="cepp" class="input" type="number" placeholder="Enter the Value">
+            </div>
+        </div>
+
+
+        <div class="control">
+            <button id="btn" class="button is-primary">Submit</button>
+        </div>
+    </div>
+
+    <section style="visibility: hidden;" class="is-text-centered">
+        <div class="container">
+            <p class="title" id="result">This is label 5</p>
+
+        </div>
+    </section>
+
+    
+</body>
+    <script src="index.js"></script>
+</html>
